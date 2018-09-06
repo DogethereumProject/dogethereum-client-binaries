@@ -1,4 +1,4 @@
-# ethereum-client-binaries
+# dogethereum-client-binaries
 
 [![Build Status](https://secure.travis-ci.org/ethereum/ethereum-client-binaries.svg?branch=master)](http://travis-ci.org/ethereum/ethereum-client-binaries) [![NPM module](https://badge.fury.io/js/ethereum-client-binaries.svg)](https://badge.fury.io/js/ethereum-client-binaries) 
 
@@ -22,7 +22,7 @@ Features:
 ## Installation
 
 ```shell
-npm install --save ethereum-client-binaries
+npm install --save dogethereum-client-binaries
 ```
 
 ## Usage
@@ -94,13 +94,13 @@ The `sanity` command is mandatory and is a way to check a found binary to ensure
 Now we can construct a `Manager` with this config:
 
 ```js
-const Manager = require('ethereum-client-binaries').Manager;
+const Manager = require('dogethereum-client-binaries').Manager;
 
 // construct
 const mgr =  new Manager(config);
 ```
 
-**Note:** If no config is provided then the default config ([src/config.json](https://github.com/ethereum/ethereum-client-binaries/blob/master/src/config.json)) gets used.
+**Note:** If no config is provided then the default config ([src/config.json](https://github.com/dogethereumproject/dogethereum-client-binaries/blob/master/src/config.json)) gets used.
 
 ### Scanning for binaries
 

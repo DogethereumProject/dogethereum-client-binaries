@@ -4,7 +4,7 @@ This guide guidelines for those wishing to contribute.
 
 ## Contributor license agreement
 
-By submitting code as an individual or as an entity you agree that your code is licensed the same as `ethereum-client-binaries`.
+By submitting code as an individual or as an entity you agree that your code is licensed the same as `dogethereum-client-binaries`.
 
 ## Issues and pull requests
 
